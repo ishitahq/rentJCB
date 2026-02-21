@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f8fa;
+}
+
+.container {
+  padding: 30px 40px;
+}
+
+.site-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.filters input,
+.filters select {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.price-box input {
+  width: 90px;
+}
+
+.clear-btn {
+  padding: 7px 12px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.results-count {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+}
+
+.unavailable-card {
+  opacity: 0.6;
+}
+
+.available {
+  color: green;
+  font-weight: 600;
+}
+
+.unavailable {
+  color: red;
+  font-weight: 600;
+}
+
+.availability-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.no-results {
+  margin-top: 20px;
+  color: #666;
+}
+
+.book-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background: #1c60c7;
+}
