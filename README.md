@@ -17,7 +17,7 @@ npm run dev
 - Booking workflows, payments, and vendor dashboards are intentionally out of scope.
 - The provided dataset is static and represents the current list of machines available on the platform.
 
-### Installation
+### Further Improvements
 - Move from in-memory data to a proper database by introduce a persistent database layer (e.g., PostgreSQL) so machine listings and availability can be stored reliably and updated dynamically. This would allow vendors to manage their listings in real time instead of relying on static data.
 
 - Introduce real-time availability handling as currently, availability is static. I would design a basic booking state model to prevent conflicts like reserved -> booked -> completed, ensuring multiple users cannot attempt to book the same machine simultaneously.
